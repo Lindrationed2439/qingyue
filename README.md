@@ -1,6 +1,16 @@
-# 轻阅
+# 轻阅 · QingYue
 
-轻阅是一款面向 Windows 的本地、离线、免安装文档客户端。它可以编辑和阅读 Markdown、JSON、常见编程语言、配置文件、TXT、LOG、CSV，并提供 DOCX 与 XLSX 的轻量显示和编辑；Markdown 文件提供接近飞书文档阅读体验的实时编译预览。
+**给本地文档一个舒服的阅读空间。**
+
+Windows 上的免安装 Markdown 与文本阅读编辑器：写作时左右分栏，阅读时收起编辑栏。无需账号，日常阅读编辑可离线使用；提供完整版和 Lite 轻量版。
+
+Portable, offline Markdown & text reader/editor for Windows — split-pane editing, focused reading, and a Lite edition.
+
+[English](README.en.md) · [立即下载](#下载) · [查看演示](#看它如何工作) · [反馈问题](https://github.com/HeYun0576/qingyue/issues)
+
+![轻阅完整版：左侧真实文件夹树，中间 Markdown 编辑，右侧实时阅读预览](docs/media/split-view.png)
+
+*完整版 1.3.3 实际界面，使用仓库内的公开示例文档。点击图片可查看原图。*
 
 ## 下载
 
@@ -12,6 +22,49 @@
 两种形式均免安装，推荐将 ZIP 解压到固定目录后运行其中的 EXE。轻量版不含 Word/Excel 等重型功能，但仍携带 Electron 运行环境。
 
 [全部发布版本](https://github.com/HeYun0576/qingyue/releases) · [历史归档说明与校验值](releases/README.md)。历史 1.0.0～1.3.2 只有原始发布包，没有原始源码快照；不会将新版源码作为旧版源码提供。
+
+## 看它如何工作
+
+**分栏编辑 → 阅读模式 → 目录跳转 → 缩放 → 切换主题。**
+
+![轻阅真实界面演示：输入 Markdown 后实时预览，切换阅读模式、使用目录、放大正文与切换深色主题](docs/media/qingyue-demo.gif)
+
+*真实交互录制，停顿经过调整，不作为启动速度测试。静态截图见下方；示例文件位于 [examples/演示文档](examples/演示文档)。*
+
+### 只看正文，也能方便地定位
+
+阅读模式隐藏编辑区，目录在左侧独立显示。支持阅读缩放、整页翻阅、书签和批注，长文档可以按自己的节奏阅读。
+
+![轻阅阅读模式：左侧目录与正文分开显示，不遮挡内容](docs/media/reading-outline.png)
+
+### 白天、夜晚，换一种阅读氛围
+
+提供明亮、深色、护眼、纸张与跟随系统主题，可调整阅读字号和行宽。Markdown 支持表格、代码高亮、公式与 Mermaid 图表。
+
+![轻阅深色阅读主题与 Mermaid 流程图](docs/media/dark-mode.png)
+
+<details>
+<summary>查看 Lite 轻量版的纸张阅读主题</summary>
+
+![轻阅 Lite 0.1.1：纸张阅读主题与左侧目录](docs/media/lite-reading.png)
+
+</details>
+
+## 选哪个版本？
+
+| 你需要的功能 | 完整版 1.3.3 | Lite 0.1.1 |
+| --- | --- | --- |
+| Markdown / TXT / JSON / 代码文件阅读编辑 | ✓ | ✓ |
+| 标签、目录、搜索、书签批注、主题、朗读 | ✓ | ✓ |
+| PDF / HTML / Markdown / TXT / RTF 导出 | ✓ | ✓ |
+| Markdown 公式与 Mermaid 图表 | ✓ | ✓ |
+| Word / Excel 轻量编辑、DOCX 导出 | ✓ | — |
+| 白板、思维导图编辑、图片工具、对比与校验 | ✓ | — |
+| 编辑器 | Monaco，带 IDE 语言服务 | 精简文本编辑器 |
+
+只需要阅读与写作，先试 Lite；需要 Office 或更多工具，再选完整版。**Lite 减少的是功能与依赖，仍包含 Electron，并非几 MB 的原生程序。** Office 与大文件支持有边界，详见下方说明。
+
+如果轻阅对你有帮助，欢迎给项目一个 Star，或通过 [Issue](https://github.com/HeYun0576/qingyue/issues) 告诉我们哪里还可以做得更好。
 
 ## 1.3.3 与 Lite 0.1.1
 
@@ -26,6 +79,9 @@ Lite 0.1.1 保留 Markdown、TXT、JSON/YAML 和代码文件的文本阅读编�
 更多说明见 [1.3.3 更新说明](RELEASE-1.3.3.md)。
 
 ## 完整版已实现
+
+<details>
+<summary>展开完整功能清单</summary>
 
 - Markdown 左侧编辑、右侧实时预览
 - 编辑 / 分栏 / 阅读三种布局
@@ -59,6 +115,8 @@ Lite 0.1.1 保留 Markdown、TXT、JSON/YAML 和代码文件的文本阅读编�
 - 从命令行、资源管理器“打开方式”和右键菜单打开文件
 - 单实例文件转发、未保存修改保护、在文件夹中显示
 - 注册表操作仅限当前用户，可在应用内完整移除
+
+</details>
 
 ## 开发运行
 
@@ -102,7 +160,14 @@ Windows 10/11 为防止应用劫持默认程序，首次设为默认时仍需由
 
 ## 安全与隐私
 
-- 文件只在本机读取和保存，不上传到任何服务；
+- 文档在本机读取、编辑和保存，无需云端账号；
+- 文档中的远程图片、音频或外部链接可能产生网络访问，离线时这些远程内容可能不可用；
 - Markdown 原生 HTML 默认禁用，并在显示前再次清理；
 - 渲染进程启用上下文隔离、沙箱并关闭 Node.js 集成；
 - 外部链接交给系统浏览器打开。
+
+## 开源与参与
+
+源码采用 [MIT License](LICENSE)。欢迎提交问题、改进建议和 Pull Request。
+
+[可直接使用的中文介绍文案](docs/PROMOTION.zh-CN.md) · [截图与动图来源、复现方式](docs/media/README.md)
