@@ -73,14 +73,14 @@ pnpm dev:app
 pnpm dist:portable
 ```
 
-发布时同时生成两种产物：
+发布页提供以下产物（上述命令生成完整版单文件 EXE，ZIP 为对应打包目录的压缩包）：
 
 - `release/QingYue-1.3.3-Fast-Portable-x64.zip`：推荐。只需解压一次，之后直接运行 `QingYue.exe`，双击文件启动更快；
 - `release/QingYue-Markdown-1.3.3-Portable-x64.exe`：单文件版，复制方便，但每次冷启动都需要先释放程序文件，速度会慢一些。
 - `release/QingYue-Lite-0.1.1-Fast-Portable-x64.zip`：轻量版极速包，解压运行 `QingYueLite.exe`。
 - `release/QingYue-Lite-0.1.1-Portable-x64.exe`：轻量版单文件包。
 
-两种版本都免安装，应用数据保存在程序旁的 `QingYue-Data` 文件夹。移动程序后如曾注册文件关联，请在设置中先移除、再重新注册，使 Windows 指向新位置。
+两种版本都免安装，完整版数据保存在程序旁的 `QingYue-Data` 文件夹，轻量版使用 `QingYueLite-Data`。移动程序后如曾注册文件关联，请在设置中先移除、再重新注册，使 Windows 指向新位置。
 
 轻量版构建：`pnpm build:lite` → `pnpm stage:lite` → `pnpm exec electron-builder --projectDir release/lite-stage --win portable --x64 --publish never`。本地模块随应用打包，无须服务器、网络连接或首次下载。
 

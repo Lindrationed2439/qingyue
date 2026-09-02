@@ -10,9 +10,21 @@ const repo = catalog.repository;
 const staging = path.join(root, 'release/.github-publish');
 const run = promisify(execFile);
 const gh = async (...args) => (await run('gh', args, { cwd: root, windowsHide: true, timeout: 30 * 60 * 1000, maxBuffer: 4 * 1024 * 1024 })).stdout.trim();
+const releaseIds = new Map();
 const getRelease = async tag => {
-  try { return JSON.parse(await gh('api', `repos/${repo}/releases/tags/${encodeURIComponent(tag)}`)); }
-  catch (error) { if (/404|release not found/i.test(error.stderr || error.message)) return null; throw error; }
+  if (releaseIds.has(tag)) return JSON.parse(await gh('api', `repos/${repo}/releases/${releaseIds.get(tag)}`));
+  try {
+    const release = JSON.parse(await gh('api', `repos/${repo}/releases/tags/${encodeURIComponent(tag)}`));
+    releaseIds.set(tag, release.id);
+    return release;
+  } catch (error) {
+    if (!/404|release not found/i.test(error.stderr || error.message)) throw error;
+    // The tag endpoint omits unpublished drafts; the authenticated list includes them.
+    const pages = JSON.parse(await gh('api', '--paginate', '--slurp', `repos/${repo}/releases?per_page=100`));
+    const release = pages.flat().find(item => item.tag_name === tag);
+    if (release) releaseIds.set(tag, release.id);
+    return release || null;
+  }
 };
 function checkAsset(actual, expected) {
   if (actual.size !== expected.size || actual.state !== 'uploaded') throw new Error(`Asset not complete: ${expected.filename}`);
