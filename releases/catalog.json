@@ -1,0 +1,188 @@
+{
+  "repository": "HeYun0576/qingyue",
+  "releases": [
+    {
+      "tag": "archive-v1.0.0",
+      "version": "1.0.0",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-Markdown-1.0.0-Portable-x64.exe",
+          "size": 90464521,
+          "sha256": "4f92c43685aa349b6fa24126a15f60438eead64a096a1863acbfc5ebd2702548"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.0.1",
+      "version": "1.0.1",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-Markdown-1.0.1-Portable-x64.exe",
+          "size": 90552224,
+          "sha256": "28501558006289e6c70e7bac3ba9281d0830eadaeeb1cfd4919ea10abde5b112"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.1.0",
+      "version": "1.1.0",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-Markdown-1.1.0-Portable-x64.exe",
+          "size": 93159720,
+          "sha256": "f58764c9f9f409dad5e4a49d8ba95315ae75a37319ddbe848f98ce65aac19f53"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.2.0",
+      "version": "1.2.0",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.2.0-Fast-Portable-x64.zip",
+          "size": 189724203,
+          "sha256": "2479b555fcfb6b64b690f8316f32330b07c982530f1c507d7df420faf5b55f1a"
+        },
+        {
+          "filename": "QingYue-Markdown-1.2.0-Portable-x64.exe",
+          "size": 110180289,
+          "sha256": "ec04ef7905f5961c2cc7cae47c4981d174151e6436c8661718962f25167848db"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.2.1",
+      "version": "1.2.1",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.2.1-Fast-Portable-x64.zip",
+          "size": 189788270,
+          "sha256": "68ae61655295cf649e1793eb765c21247f1da4e932904aa83d0ffe7c124317e1"
+        },
+        {
+          "filename": "QingYue-Markdown-1.2.1-Portable-x64.exe",
+          "size": 110183792,
+          "sha256": "41696ed7e4004e9f98c8c166a55214e507bd005bc63c92ae8cd6e16e9f93ea03"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.2.2",
+      "version": "1.2.2",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.2.2-Fast-Portable-x64.zip",
+          "size": 189779323,
+          "sha256": "9ea0893b73baf8af6ad4e76861b28a6d6085bb365443fb1d123eb5e6a16e4dfe"
+        },
+        {
+          "filename": "QingYue-Markdown-1.2.2-Portable-x64.exe",
+          "size": 110186718,
+          "sha256": "68697381bac8f3f2bbb008f94c59547f635b1d6314a0aad3d40e837d09099b56"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.3.0",
+      "version": "1.3.0",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.3.0-Fast-Portable-x64.zip",
+          "size": 136956127,
+          "sha256": "d12be7f02fbcc0f91489808073f404683788e89e6f85ead44e1dda833d62d452"
+        },
+        {
+          "filename": "QingYue-Markdown-1.3.0-Portable-x64.exe",
+          "size": 84755039,
+          "sha256": "da1841c728b477f6f85d0c36d409e80af96ccc2e093667184d396dbbeaa41ed4"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.3.1",
+      "version": "1.3.1",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.3.1-Fast-Portable-x64.zip",
+          "size": 140804746,
+          "sha256": "56222546ede56c56d6267eac2374853f179813adb89ea23e24dd915e0fc896b2"
+        },
+        {
+          "filename": "QingYue-Markdown-1.3.1-Portable-x64.exe",
+          "size": 84758229,
+          "sha256": "3c21e6cc2f4e645c1fb0f5539e2d8fdf94e465824b6784220a9afdb6c43901ea"
+        }
+      ]
+    },
+    {
+      "tag": "archive-v1.3.2",
+      "version": "1.3.2",
+      "edition": "full",
+      "sourceAvailable": false,
+      "assets": [
+        {
+          "filename": "QingYue-1.3.2-Fast-Portable-x64.zip",
+          "size": 140806017,
+          "sha256": "c6c29b82cf624c9ed35a20c0e2c713d06ed568b8165cfcc2d319b939c6d297c3"
+        },
+        {
+          "filename": "QingYue-Markdown-1.3.2-Portable-x64.exe",
+          "size": 84757558,
+          "sha256": "ce5c259ca6badd53fe84f629823ed22168aa7864708480ea7f91cd1d849e8d0e"
+        }
+      ]
+    },
+    {
+      "tag": "v1.3.3",
+      "version": "1.3.3",
+      "edition": "full",
+      "sourceAvailable": true,
+      "assets": [
+        {
+          "filename": "QingYue-1.3.3-Fast-Portable-x64.zip",
+          "size": 140813743,
+          "sha256": "270f99dabe34ef13ae4e52af1e3f1f7e79737c952a86ab6012779f8cd587de2e"
+        },
+        {
+          "filename": "QingYue-Markdown-1.3.3-Portable-x64.exe",
+          "size": 84761173,
+          "sha256": "ba3756a7eaf4a02a87bc57fc1672ec781cad98088257340f4a915db5b2d9c5ff"
+        }
+      ]
+    },
+    {
+      "tag": "lite-v0.1.1",
+      "version": "0.1.1",
+      "edition": "lite",
+      "sourceAvailable": true,
+      "assets": [
+        {
+          "filename": "QingYue-Lite-0.1.1-Fast-Portable-x64.zip",
+          "size": 127796393,
+          "sha256": "3d3de7c33c1cf3acb58779bb9d7fc2a65a0e0be35ab172dc73ecf01cfd165674"
+        },
+        {
+          "filename": "QingYue-Lite-0.1.1-Portable-x64.exe",
+          "size": 78702790,
+          "sha256": "ceb0d1c19f3b2b7c05862aff6f7c43a3ffeb8eaefdc15f4fd8bae0f92f781ac2"
+        }
+      ]
+    }
+  ]
+}

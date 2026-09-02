@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-lite/
+qa-v133/
+release/
+*.log
+QingYue-Data/
+QingYueLite-Data/
+qa/
+design-qa.md
+.env
+.env.*
+!.env.example
+*.pem
+*.key
